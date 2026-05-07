@@ -44,6 +44,15 @@ The output will be placed in the `dist` directory. You can preview the productio
 npm run preview
 ```
 
+## Deployment
+
+### Deploy to Vercel
+This project is configured to be seamlessly deployed to Vercel. A `vercel.json` file is included to handle client-side routing (Single Page Application fallback).
+
+1. Install the Vercel CLI (optional): `npm i -g vercel`
+2. Run `vercel` in the project root if using the CLI, or import the GitHub repository directly into your Vercel dashboard.
+3. Vercel will automatically detect the Vite React configuration, run `npm run build`, and deploy the `dist` folder.
+
 ## Technologies Used
 - **React 19**
 - **TypeScript**
