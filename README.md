@@ -15,7 +15,7 @@ Before you begin, ensure you have the following installed on your local machine:
 Follow these steps to run the ARGUS application locally:
 
 ### 1. Download the Code
-You can download the code directly from Google AI Studio by clicking the **Export** button in the top menu and selecting **Download ZIP**, or by exporting it to a GitHub repository and cloning it:
+You can download the code directly from the project interface by clicking the **Export** button in the top menu and selecting **Download ZIP**, or by exporting it to a GitHub repository and cloning it:
 ```bash
 git clone <your-repository-url>
 cd <repository-directory>
